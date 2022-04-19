@@ -7,7 +7,7 @@ const MainHeader = (props) => {
   return (
     <header className={classes['main-header']}>
       <h1>Not sure what this app is yet</h1> 
-      <Navigation onLogout={props.onLogout} />
+      <Navigation />
       {/* <button onClick={props.onLogout}>Logout</button> */}
     </header>
   );
